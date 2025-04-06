@@ -17,6 +17,11 @@ let package = Package(
     ],
     targets: {
         
+        let chatTarget = Target.target(
+            name: "ChatSDK",
+            dependencies: []
+        )
+        
         let appearanceTarget = Target.target(
             name: "ResChatAppearance",
             dependencies: []
@@ -156,6 +161,7 @@ let package = Package(
             uiKitUITarget,
             houAppKitTarget,
             appKitUITarget,
+            chatTarget
         ]
 
         return targets
