@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 21.05.2024..
 //
-
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -171,3 +171,4 @@ open class ChatBotMessageCell: ProvidingTableViewCell {
         return summary
     }
 }
+#endif

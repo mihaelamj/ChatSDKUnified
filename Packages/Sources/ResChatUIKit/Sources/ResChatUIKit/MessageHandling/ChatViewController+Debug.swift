@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 17.09.2024..
 //
-
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -19,3 +19,4 @@ extension ChatViewController {
         print("DBGG: \(title) messages: \(messages.count) are ranging from \(niceDateFrom(messages.first?.date)) to \(niceDateFrom(messages.last?.date))")
     }
 }
+#endif

@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 09.12.2024..
 //
-
+#if os(macOS)
 import AppKit
 import ResChatUICommon
 
@@ -200,3 +200,4 @@ private extension ChatBotMessageCell {
         ])
     }
 }
+#endif

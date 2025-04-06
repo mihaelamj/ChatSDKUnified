@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 27.09.2024..
 //
-
+#if os(iOS)
 import Foundation
 
 internal extension ChatViewController {
@@ -40,3 +40,4 @@ internal extension ChatViewController {
         setUserActionsEnabled(isSendingEnabled)
     }
 }
+#endif

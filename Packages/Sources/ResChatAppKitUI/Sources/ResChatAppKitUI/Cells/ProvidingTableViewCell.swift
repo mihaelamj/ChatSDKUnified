@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 09.12.2024..
 //
-
+#if os(macOS)
 import AppKit
 import ResChatAppearance
 import ResChatUICommon
@@ -40,3 +40,4 @@ extension ProvidingTableViewCell {
         self.layer?.add(scaleUpAnimation, forKey: "pulse")
     }
 }
+#endif

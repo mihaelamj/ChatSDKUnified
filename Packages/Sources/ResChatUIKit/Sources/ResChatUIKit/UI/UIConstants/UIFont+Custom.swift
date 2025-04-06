@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 23.05.2024..
 //
-
+#if os(iOS)
 import UIKit
 
 public extension UIFont {
@@ -35,3 +35,4 @@ public extension UIFont {
     static let inputPlaceholder = museoSansCondensedRegular(ofSize: 16)
     static let navigationTitle = museoSansCondensedBold(ofSize: 20)
 }
+#endif

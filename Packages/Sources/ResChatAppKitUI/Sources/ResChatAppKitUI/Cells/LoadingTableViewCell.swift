@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 09.12.2024..
 //
-
+#if os(macOS)
 import AppKit
 import ResChatUICommon
 
@@ -49,3 +49,4 @@ open class LoadingTableViewCell: ProvidingTableViewCell {
         loadingIndicator.startAnimation(nil)
     }
 }
+#endif

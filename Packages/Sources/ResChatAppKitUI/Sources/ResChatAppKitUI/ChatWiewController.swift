@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 17.09.2024..
 //
-
+#if os(macOS)
 import AppKit
 import Combine
 import ResChatAppearance
@@ -237,3 +237,4 @@ private extension ChatViewController {
         ]
     }
 }
+#endif

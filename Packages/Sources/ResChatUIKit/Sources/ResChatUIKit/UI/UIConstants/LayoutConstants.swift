@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 22.05.2024..
 //
-
+#if os(iOS)
 import UIKit
 
 struct LayoutConstants {
@@ -53,4 +53,4 @@ struct LayoutConstants {
     static let minTextViewHeight: CGFloat = messageTextFieldHeight
     static let maxTextViewHeight: CGFloat = minTextViewHeight * 3.0
 }
-
+#endif

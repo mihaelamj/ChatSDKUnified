@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 04.06.2024..
 //
-
+#if os(iOS)
 import UIKit
 import ResChatAppearance
 import ResChatUICommon
@@ -121,3 +121,4 @@ extension ProvidingTableViewCell {
         }
     }
 }
+#endif

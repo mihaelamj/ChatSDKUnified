@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 25.09.2024..
 //
-
+#if os(iOS)
 import UIKit
 
 extension ChatViewController: UITextViewDelegate {
@@ -48,3 +48,4 @@ extension UITextView {
         self.text = nil
     }
 }
+#endif

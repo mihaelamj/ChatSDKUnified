@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 03.09.2024..
 //
-
+#if os(iOS)
 import Foundation
 import ResChatUICommon
 
@@ -94,3 +94,4 @@ internal extension ChatViewController {
     }
 
 }
+#endif

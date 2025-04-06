@@ -3,7 +3,7 @@
 //
 //  Created by Mihaela MJ on 18.09.2024..
 //
-
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -184,3 +184,4 @@ private extension ChatBotMessageCell {
         return attributedText
     }
 }
+#endif

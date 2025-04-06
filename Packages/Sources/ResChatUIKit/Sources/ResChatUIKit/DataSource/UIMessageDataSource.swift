@@ -5,6 +5,7 @@
 //  Created by Mihaela MJ on 02.09.2024..
 //
 
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -58,3 +59,4 @@ extension UIMessageDataSource {
     }
     
 }
+#endif

@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 13.09.2024..
 //
-
+#if os(iOS)
 import Combine
 import Foundation
 import ResChatProtocols
@@ -54,3 +54,4 @@ extension ChatViewController {
             .store(in: &cancellables)
     }
 }
+#endif

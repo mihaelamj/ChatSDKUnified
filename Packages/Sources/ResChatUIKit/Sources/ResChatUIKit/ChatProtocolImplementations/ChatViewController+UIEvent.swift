@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 09.09.2024..
 //
-
+#if os(iOS)
 import Foundation
 import Combine
 import ResChatProtocols
@@ -33,3 +33,4 @@ extension ChatViewController: UIEvent {
         hasMoreMessagesToLoadSubject.eraseToAnyPublisher()
     }
 }
+#endif

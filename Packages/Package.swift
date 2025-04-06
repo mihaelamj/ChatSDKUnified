@@ -29,7 +29,9 @@ let package = Package(
     
         let loggingTarget = Target.target(
             name: "ResChatLogging",
-            dependencies: []
+            dependencies: [
+                "ResChatUtil"
+            ]
         )
         
         let speechTarget = Target.target(
@@ -46,6 +48,14 @@ let package = Package(
             name: "ResChatSocket",
             dependencies: [
                 .product(name: "SocketIO", package: "socket.io-client-swift")
+            ]
+        )
+        
+        let socketTestTarget = Target.testTarget(
+            name: "ResChatSocketTests",
+            dependencies: ["ResChatSocket"],
+            resources: [
+                .process("DemoData")
             ]
         )
         
@@ -95,7 +105,7 @@ let package = Package(
         let houUIKitTarget = Target.target(
             name: "ResChatHouUIKit",
             dependencies: [
-                "ResChatAppKitUI",
+                "ResChatUIKit",
                 "ResChatSocket",
                 "ResChatAppearance",
                 "ResChatHouCommon",
@@ -119,7 +129,7 @@ let package = Package(
         let houAppKitTarget = Target.target(
             name: "ResChatHouAppKit",
             dependencies: [
-                "ResChatUIKit",
+                "ResChatAppKitUI",
                 "ResChatSocket",
                 "ResChatAppearance",
                 "ResChatHouCommon",
@@ -165,6 +175,7 @@ let package = Package(
             speechTarget,
             utilTarget,
             socketTarget,
+            socketTestTarget,
             attributedTextTarget,
             commonHouTarget,
             commonUITarget,

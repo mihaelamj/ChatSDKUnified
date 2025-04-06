@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 13.09.2024..
 //
-
+#if os(iOS)
 import Foundation
 
 extension Notification.Name {
@@ -69,3 +69,4 @@ internal extension ChatViewController {
         NotificationCenter.default.post(name: .botFinishedTyping, object: nil)
     }
 }
+#endif

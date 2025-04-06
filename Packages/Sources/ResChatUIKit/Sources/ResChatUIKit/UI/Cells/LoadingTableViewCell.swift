@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 30.08.2024..
 //
-
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -43,3 +43,4 @@ open class LoadingTableViewCell: ProvidingTableViewCell {
         configureForDebugging(with: message.type)
     }
 }
+#endif

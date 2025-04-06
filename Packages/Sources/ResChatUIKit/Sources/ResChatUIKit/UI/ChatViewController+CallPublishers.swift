@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 10.09.2024..
 //
-
+#if os(iOS)
 import Foundation
 
 // MARK: Send Message -
@@ -79,4 +79,4 @@ extension ChatViewController {
         }
     }
 }
-
+#endif

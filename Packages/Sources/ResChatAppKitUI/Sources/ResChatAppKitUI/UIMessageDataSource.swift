@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 09.12.2024..
 //
-
+#if os(macOS)
 import AppKit
 import ResChatUICommon
 
@@ -85,3 +85,4 @@ class UIMessageDataSource: NSObject, NSTableViewDataSource {
         return cell
     }
 }
+#endif

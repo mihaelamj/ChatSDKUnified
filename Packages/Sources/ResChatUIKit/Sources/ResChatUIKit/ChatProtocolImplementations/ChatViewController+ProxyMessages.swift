@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+#if os(iOS)
 import UIKit
 import ResChatUICommon
 
@@ -163,3 +164,4 @@ internal extension ChatViewController {
         }
     }
 }
+#endif

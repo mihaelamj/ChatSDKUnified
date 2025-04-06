@@ -4,7 +4,7 @@
 //
 //  Created by Mihaela MJ on 01.08.2024..
 //
-
+#if os(iOS)
 import Foundation
 import UIKit
 import ResChatUICommon
@@ -34,4 +34,4 @@ extension ChatViewController: UITextProviding {
         scrollToBottom()
     }
 }
-
+#endif

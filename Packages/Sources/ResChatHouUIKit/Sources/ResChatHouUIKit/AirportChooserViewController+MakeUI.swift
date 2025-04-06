@@ -4,7 +4,6 @@
 //
 //  Created by Mihaela MJ on 15.09.2024..
 //
-
 import Foundation
 import ResChatHouCommon
 import ResChatUIKit
@@ -19,4 +18,3 @@ public extension AirportChooserViewController {
                         chatViewController: chatViewController)
     }
 }
-
