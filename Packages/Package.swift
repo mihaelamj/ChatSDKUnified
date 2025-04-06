@@ -17,11 +17,6 @@ let package = Package(
     ],
     targets: {
         
-        let chatTarget = Target.target(
-            name: "ChatSDK",
-            dependencies: []
-        )
-        
         let appearanceTarget = Target.target(
             name: "ResChatAppearance",
             dependencies: []
@@ -144,7 +139,25 @@ let package = Package(
                 "ResChatLogging"
             ]
         )
-
+        
+        let chatTarget = Target.target(
+            name: "ChatSDK",
+            dependencies: [
+                "ResChatAppearance",
+                "ResChatMessageManager",
+                "ResChatAttributedText",
+                "ResChatHouCommon",
+                "ResChatSpeech",
+                "ResChatProtocols",
+                "ResChatSocket",
+                "ResChatProxy",
+                .target(name: "ResChatHouUIKit", condition: .when(platforms: [.iOS])),
+                .target(name: "ResChatUIKit", condition: .when(platforms: [.iOS])),
+                .target(name: "ResChatHouAppKit", condition: .when(platforms: [.macOS])),
+                .target(name: "ResChatAppKitUI", condition: .when(platforms: [.macOS]))
+            ]
+        )
+        
         var targets: [Target] = [
             appearanceTarget,
             protocolsTarget,
