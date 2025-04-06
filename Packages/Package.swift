@@ -51,14 +51,6 @@ let package = Package(
             ]
         )
         
-        let socketTestTarget = Target.testTarget(
-            name: "ResChatSocketTests",
-            dependencies: ["ResChatSocket"],
-            resources: [
-                .process("DemoData")
-            ]
-        )
-        
         let attributedTextTarget  = Target.target(
             name: "ResChatAttributedText",
             dependencies: [
@@ -175,7 +167,6 @@ let package = Package(
             speechTarget,
             utilTarget,
             socketTarget,
-            socketTestTarget,
             attributedTextTarget,
             commonHouTarget,
             commonUITarget,
