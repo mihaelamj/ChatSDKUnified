@@ -1,0 +1,105 @@
+    [
+      {
+        "conversation_id": "conv456",
+        "history_snapshot": {
+          "history_id": "mobile_iOS_9616F010-1947-417B-B225-24E741DE2511|conv456",
+          "messages": [
+            {
+              "feedback_explanation": null,
+              "feedback_type": null,
+              "index": 21,
+              "metadata": null,
+              "origin": "bot",
+              "payload": "{\"message\": {\"elements\": [{\"element\": \"text\", \"text\": \"Of course! I'm here to assist you. What do you need help with?\", \"html_to_markdown\": false, \"attachment\": null}], \"surface\": \"chat_message\", \"render_only_for\": [], \"notification_text\": null}, \"sources\": null, \"thought_process\": null, \"debug_info\": null}",
+              "payload_type": "message",
+              "request_id": "5202222e67474d6ba039e8fb36acfa09",
+              "session": {
+                "active": 1,
+                "agent_id": "conv456",
+                "created_timestamp": "2024-08-01T15:41:00.250619+00:00",
+                "session_id": "d0f8c68e-c57e-4a9a-b861-5681af1aa0fa",
+                "session_name": "Session 1"
+              },
+              "timestamp": "2024-08-01T16:34:25.151602+00:00"
+            },
+            {
+              "feedback_explanation": null,
+              "feedback_type": null,
+              "index": 22,
+              "metadata": null,
+              "origin": "user",
+              "payload": "{\"message\": {\"elements\": [{\"element\": \"text\", \"text\": \"Hello, can you help me?\", \"html_to_markdown\": false, \"attachment\": null}], \"surface\": \"chat_message\", \"render_only_for\": [], \"notification_text\": null}, \"sources\": null, \"thought_process\": null, \"debug_info\": null}",
+              "payload_type": "message",
+              "request_id": "49802efa255d4d99ba7328f8ce0072d6",
+              "session": {
+                "active": 1,
+                "agent_id": "conv456",
+                "created_timestamp": "2024-08-01T15:41:00.250619+00:00",
+                "session_id": "d0f8c68e-c57e-4a9a-b861-5681af1aa0fa",
+                "session_name": "Session 1"
+              },
+              "timestamp": "2024-08-01T19:29:43.485639+00:00"
+            },
+            {
+              "feedback_explanation": null,
+              "feedback_type": null,
+              "index": 23,
+              "metadata": null,
+              "origin": "bot",
+              "payload": "{\"message\": {\"elements\": [{\"element\": \"text\", \"text\": \"Absolutely, I'm here to help! What do you need assistance with today?\", \"html_to_markdown\": false, \"attachment\": null}], \"surface\": \"chat_message\", \"render_only_for\": [], \"notification_text\": null}, \"sources\": null, \"thought_process\": null, \"debug_info\": null}",
+              "payload_type": "message",
+              "request_id": "49802efa255d4d99ba7328f8ce0072d6",
+              "session": {
+                "active": 1,
+                "agent_id": "conv456",
+                "created_timestamp": "2024-08-01T15:41:00.250619+00:00",
+                "session_id": "d0f8c68e-c57e-4a9a-b861-5681af1aa0fa",
+                "session_name": "Session 1"
+              },
+              "timestamp": "2024-08-01T19:29:45.344502+00:00"
+            },
+            {
+              "feedback_explanation": null,
+              "feedback_type": null,
+              "index": 24,
+              "metadata": null,
+              "origin": "user",
+              "payload": "{\"message\": {\"elements\": [{\"element\": \"text\", \"text\": \"Hello, can you help me?\", \"html_to_markdown\": false, \"attachment\": null}], \"surface\": \"chat_message\", \"render_only_for\": [], \"notification_text\": null}, \"sources\": null, \"thought_process\": null, \"debug_info\": null}",
+              "payload_type": "message",
+              "request_id": "55fee3c92e8b4ae6a0f69d282b0dbe07",
+              "session": {
+                "active": 1,
+                "agent_id": "conv456",
+                "created_timestamp": "2024-08-01T15:41:00.250619+00:00",
+                "session_id": "d0f8c68e-c57e-4a9a-b861-5681af1aa0fa",
+                "session_name": "Session 1"
+              },
+              "timestamp": "2024-08-01T19:30:12.417628+00:00"
+            },
+            {
+              "feedback_explanation": null,
+              "feedback_type": null,
+              "index": 25,
+              "metadata": null,
+              "origin": "bot",
+              "payload": "{\"message\": {\"elements\": [{\"element\": \"text\", \"text\": \"Of course! I'm here to assist you. What do you need help with?\", \"html_to_markdown\": false, \"attachment\": null}], \"surface\": \"chat_message\", \"render_only_for\": [], \"notification_text\": null}, \"sources\": null, \"thought_process\": null, \"debug_info\": null}",
+              "payload_type": "message",
+              "request_id": "55fee3c92e8b4ae6a0f69d282b0dbe07",
+              "session": {
+                "active": 1,
+                "agent_id": "conv456",
+                "created_timestamp": "2024-08-01T15:41:00.250619+00:00",
+                "session_id": "d0f8c68e-c57e-4a9a-b861-5681af1aa0fa",
+                "session_name": "Session 1"
+              },
+              "timestamp": "2024-08-01T19:30:13.944917+00:00"
+            }
+          ],
+          "messages_after": 0,
+          "messages_before": 21,
+          "snapshot_size": 30
+        }
+      }
+    ]
+
+
